@@ -19,7 +19,7 @@ import pygame
 from game.constants import (
     WINDOW_WIDTH, WINDOW_HEIGHT, FPS,
     DEFAULT_DIFFICULTY, DEFAULT_SCORE_LIMIT,
-    DEFAULT_TIMER_ENABLED, DEFAULT_TIMER_SECS,
+    DEFAULT_TIMER_ENABLED, DEFAULT_TIMER_SECS, DEFAULT_MULTIPLAYER,
 )
 from game.screens.main_menu     import MainMenu
 from game.screens.options_screen import OptionsScreen
@@ -45,6 +45,7 @@ def main() -> None:
         "music_volume":  80,     # 0-100
         "move_volume":   70,     # 0-100
         "brightness":    100,
+        "multiplayer":   DEFAULT_MULTIPLAYER,  # True = 2-player, False = 1-player
     }
 
     # ── Background music ─────────────────────────────────────────────────────

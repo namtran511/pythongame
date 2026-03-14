@@ -42,3 +42,4 @@ DEFAULT_DIFFICULTY    = "Medium"
 DEFAULT_SCORE_LIMIT   = 3      # first player to solve N puzzles wins the match
 DEFAULT_TIMER_ENABLED = True
 DEFAULT_TIMER_SECS    = 180    # seconds per puzzle round
+DEFAULT_MULTIPLAYER   = True   # True = 2-player, False = 1-player
